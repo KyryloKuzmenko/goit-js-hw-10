@@ -22,6 +22,7 @@ document.querySelector('.form').addEventListener('submit', function(e){
     
     this.reset();
 })
+
 function createPromises(delay, state) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
